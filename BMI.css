@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #B4B4B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+   
+}
+#main{
+    height:300px;
+    width: 300px;
+    background-color:#e0e0e5b0;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    
+}
+#heading{
+    position: absolute;
+    top:150px;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+h1{
+    text-align: center;
+    position: relative; 
+     top:25px;
+}
+
+
+
+
+input{
+    display:block;
+    height: 40px;
+    width: 200px;
+}
+#form{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+   
+    
+}
+#calc{
+    margin-top: 40px;
+    width: 60px;
+    height: 40px;
+    background-color: rgba(158, 158, 132, 0.511);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+:hover #calc{
+    /* transform: scale(.8); */
+    background-color: bisque;
+    
+}
